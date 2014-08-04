@@ -137,22 +137,17 @@ PRODUCT_PACKAGES += \
 # Optional CM packages
 PRODUCT_PACKAGES += \
     VoicePlus \
-    Basic \
     libemoji
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
     Trebuchet \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    CMWallpapers \
     Apollo \
     CMFileManager \
     LockClock \
-    CMUpdater \
-    CMFota \
     CMAccount \
     CMHome
 
