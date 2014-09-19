@@ -43,3 +43,7 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(AOGP_VERSION) \
     ro.aogp.version=$(VERSION)-$(AOGP_BUILD)
+    
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.modversion=$(AOGP_VERSION) \
+	ro.aogp.version=$(VERSION)
